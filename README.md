@@ -1,2 +1,2 @@
-# jotai-suspense-test
+# joutai-suspense-test
 Created with CodeSandbox
