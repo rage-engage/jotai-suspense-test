@@ -14,7 +14,7 @@ const first151Atom = atom((get) =>
   get(pokemonAtom).filter((_pokemon, i) => i < 150)
 );
 
-function getPokemon() {
+function GetPokemon() {
   const [getFirstPokemon] = useAtom(first151Atom);
   return <div>{JSON.stringify(getFirstPokemon)}</div>;
 }
@@ -24,7 +24,7 @@ export default function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
-      {getPokemon()}
+      <GetPokemon />
     </div>
   );
 }
